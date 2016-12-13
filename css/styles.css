@@ -1,0 +1,38 @@
+body{
+     background: rgb(244, 196, 46);
+}
+
+#item:hover{
+     background: rgb(73, 127, 187);
+}
+
+#mu{
+     background: rgb(63, 251, 181);
+}
+
+#ccr{
+     color: #efefef;
+     background: rgb(228, 113, 49);
+}
+
+#ccr > a{
+     color: #efefef;
+}
+
+.footer{
+     padding: 15px;
+     background:rgb(179, 83, 255);
+     /*rgb(58, 120, 252)*/
+}
+
+@media only screen and (min-width: 481px) {
+     ul, button{
+          display: none;
+     }
+}
+
+@media only screen and (max-width: 480px) {
+     ul{
+          display: block;
+     }
+}
